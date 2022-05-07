@@ -1,0 +1,53 @@
+.verifiedBack {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../svgs/back.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.verifieddiv {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Veri {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.okimg {
+  position: relative;
+  transform-origin: center;
+  transform: scale(0.55);
+  top: 0.9rem;
+}
+
+@media screen and (max-width: 850px) {
+  .Veri {
+    font-size: 0.9rem;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-inline: 1.2em;
+  }
+  .okimg {
+    transform: scale(0.4);
+    top: 1.2em;
+    left: -0.4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .okimg {
+    display: none;
+  }
+}
